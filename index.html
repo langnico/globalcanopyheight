@@ -316,7 +316,7 @@
             </a>
             <p class="caption">
                 <div stype=font-size:10px>
-                    Global canopy top height map for the year 2020, visualized in Equal-Earth projection. The underlying data product, estimated from Sentinel-2 imagery, has 10 m ground sampling distance. The map can be explored in this <a href="https://nlang.users.earthengine.app/view/global-canopy-height-2020">browser application</a>. Individual tiles can be downloaded using the <a href="assets/tile_index.html">tile browser</a>.
+                    Global canopy top height map for the year 2020, visualized in Equal-Earth projection. The underlying data product, estimated from Sentinel-2 imagery, has 10 m ground sampling distance. The map can be explored in this [<a href="https://nlang.users.earthengine.app/view/global-canopy-height-2020">browser application</a>]. Individual tiles can be downloaded using the [<a href="assets/tile_index.html">tile browser</a>].
                 </div>
             </p>
         </section>
@@ -346,13 +346,16 @@
         </section>
         <br>
         <div class="container">
-            <h2>Google Earth Engine Assets</h2>
+            <h2>Data platforms</h2>
             <hr>
             <section id="bibtex">
             <div style="font-size:21px">
-            The global map (canopy height and standard deviation) is available on Google Earth Engine.
+                <b>Google Earth Engine:</b>
+            The global map is available as GEE assets:
                 <pre><code>var canopy_height = ee.Image('users/nlang/ETH_GlobalCanopyHeight_2020_10m_v1');
 var standard_deviation = ee.Image('users/nlang/ETH_GlobalCanopyHeightSD_2020_10m_v1');</code></pre>
+                <b>ESRI ArcGIS Living Atlas of the World: </b> [<a href="https://www.arcgis.com/home/item.html?id=2a3dfb00c2c6425f85bd70da420d58eb#">here</a>]
+
 			</div>
             </section>
         </div>
