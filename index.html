@@ -302,7 +302,8 @@
         <p></p>
 
         <div class="parent">
-            <a href="https://arxiv.org/abs/2204.08322"><button class="bs"><span class="fa fa-file-pdf-o fa-fw"></span> Paper</button></a>
+            <a href="https://doi.org/10.1038/s41559-023-02206-6"><button class="bs"><span class="fa fa-file-pdf-o fa-fw"></span> Paper</button></a>
+            <a href="https://arxiv.org/abs/2204.08322"><button class="bs"><span class="fa fa-file-pdf-o fa-fw"></span> arxiv</button></a>
             <a href="https://nlang.users.earthengine.app/view/global-canopy-height-2020"><button class="bs"><span class="fa"></span> Demo App</button></a>
             <a href="https://doi.org/10.3929/ethz-b-000609802"><button class="bs"><span class="fa fa-database fa-fw"></span> Data</button></a>
             <a href="https://github.com/langnico/global-canopy-height-model"><button class="bs"><span class="fa fa-github fa-fw"></span> Code</button></a>
@@ -354,7 +355,8 @@
             The global map is available as GEE assets:
                 <pre><code>var canopy_height = ee.Image('users/nlang/ETH_GlobalCanopyHeight_2020_10m_v1');
 var standard_deviation = ee.Image('users/nlang/ETH_GlobalCanopyHeightSD_2020_10m_v1');</code></pre>
-                <b>ESRI ArcGIS Living Atlas of the World: </b> [<a href="https://www.arcgis.com/home/item.html?id=2a3dfb00c2c6425f85bd70da420d58eb#">here</a>]
+                See GEE sample code in the awesome-gee-community-catalog: [<a href="https://gee-community-catalog.org/projects/canopy/">here</a>]
+                <br><br><b>ESRI ArcGIS Living Atlas of the World: </b> [<a href="https://www.arcgis.com/home/item.html?id=2a3dfb00c2c6425f85bd70da420d58eb#">here</a>]
 
 			</div>
             </section>
@@ -372,13 +374,20 @@ var standard_deviation = ee.Image('users/nlang/ETH_GlobalCanopyHeightSD_2020_10m
         <div class="container">
             <h2>Citation</h2>
             <hr>
+            <section id="citation">
+            <div style="font-size:21px">
+            Lang, N., Jetz, W., Schindler, K., & Wegner, J. D. (2023). A high-resolution canopy height model of the Earth. Nature Ecology & Evolution, 1-12.
+            </section>
             <section id="bibtex">
-                <pre><code>@article{lang2022high,
+                <pre><code>@article{lang2023high,
   title={A high-resolution canopy height model of the Earth},
   author={Lang, Nico and Jetz, Walter and Schindler, Konrad and Wegner, Jan Dirk},
-  journal={arXiv preprint arXiv:2204.08322},
-  year={2022}
-}</code></pre>
+  journal={Nature Ecology \& Evolution},
+  pages={1--12},
+  year={2023},
+  publisher={Nature Publishing Group UK London}
+}
+</code></pre>
             </section>
         </div>
 </body>
